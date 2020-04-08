@@ -547,6 +547,10 @@ max-width: 607px;
 /* choice styles start */
 
 
+.choice{
+    padding: 80px 120px 50px 120px;
+}
+
 .choice_wrap{
     position: relative;
     margin: 0 auto;
@@ -554,7 +558,6 @@ max-width: 607px;
     grid-template-columns: repeat(2, 588px);
     box-sizing: border-box;
     column-gap: 24px;
-    margin-left: 120px;
 }
 
 .choice_card{
@@ -609,6 +612,9 @@ max-width: 607px;
 
 /* work styles start */
 
+.work{
+    padding: 80px 120px 50px 120px;
+}
 
 .work_wrap{
     position: relative;
@@ -616,12 +622,9 @@ max-width: 607px;
     display: grid;
     grid-template-columns: 384px 384px 384px;
     column-gap: 24px;
-    margin-left: 120px;
 }
 
 .work_title{
-    margin-top: 80px;
-    margin-left: 121px;
     font-weight: bold;
     font-size: 40px;
     line-height: 110%;
@@ -700,7 +703,6 @@ max-width: 607px;
 
 .props-container{
 	width: 60%;
-	padding: 0px 10px 10px 10px;
 }
 
 
@@ -720,6 +722,7 @@ max-width: 607px;
     margin-left: 0px;
     width: 486px;
     height: 420px;
+    margin-right: 120px;
 }
 
 .descr{
@@ -896,7 +899,7 @@ max-width: 607px;
 /*sale styles start*/
 
 .sale{
-    margin-top: 80px;
+    padding: 80px 120px 50px 120px;
 }
 
 .sale_title{
@@ -904,7 +907,6 @@ max-width: 607px;
     font-size: 40px;
     line-height: 110%;
     color: #2B3145;
-    margin-left: 120px;
     margin-bottom: 40px;
 }
 
@@ -931,7 +933,6 @@ max-width: 607px;
     display: grid;
     grid-template-columns: repeat(3, 364px);
     column-gap: 40px;
-    margin-left: 120px;
 }
 
 .sale_card{
@@ -1012,7 +1013,7 @@ max-width: 607px;
 /*reputation styles start*/
 
 .reputation{
-    margin-top: 120px;
+    padding: 80px 120px 50px 120px;
 }
 
 .reputation_wrap{
@@ -1021,7 +1022,7 @@ max-width: 607px;
     display: grid;
     grid-template-columns: repeat(3, 384px);
     column-gap: 24px;
-    margin-left: 120px;   
+    margin-top: 76px;
 }
 
 .reputation_title{
@@ -1029,7 +1030,6 @@ max-width: 607px;
     font-size: 40px;
     line-height: 110%;
     color: #2B3145;
-    margin-left: 120px;
     margin-bottom: 16px;
 }
 
@@ -1038,9 +1038,6 @@ max-width: 607px;
     font-size: 18px;
     line-height: 140%;
     color: #4F4F4F;
-    margin-left: 120px;
-    margin-top: 16px;
-    margin-bottom: 40px;
 }
 
 .reputation_card{
@@ -1081,6 +1078,89 @@ max-width: 607px;
     left: 16px;
 }
 
+/*reputation styles end*/
 
 
-/*reputation styles start*/
+/* construction styles start */
+
+.construction{
+    padding: 80px 120px 50px 120px;
+}
+
+.construction_wrap{
+    position: relative;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 384px);
+    column-gap: 24px; 
+}
+
+.construction_title{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 110%;
+    color: #2B3145;
+    margin-bottom: 41px;
+}
+
+.construction_card-one{
+    background: url(img/house-ico1.png);
+    height: 300px;
+}
+
+.construction_card-two{
+    background: url(img/house-ico2.png);
+    height: 300px;
+}
+
+.construction_card-three{
+    background: url(img/house-ico3.png);
+    height: 300px;
+}
+
+.construction_more{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 17px;
+    color: #333333;
+    text-decoration: none;
+    padding-left: 850px;
+    background: url(img/Arrow.png) no-repeat 99% center;
+    transition: .2s;
+    padding-right: 28px;
+}
+
+
+.construction_more:hover, .construction_more:focus{
+    background: url(img/Arrow.png) no-repeat right center;
+}
+
+.construction_desc{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 110%;
+    color: #FFFFFF;
+    position: absolute;
+    padding-top: 261px;
+    padding-left: 16px;
+    }
+
+
+.construction_more-bg{
+    position: relative;
+    background: #66A80F;
+    width: 60px;
+    height: 60px;
+    margin-top: 240px;
+    margin-left: 324px;      
+}
+
+.construction_more-arrow{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 18px;
+}
+
+
+
+/* construction styles end */
