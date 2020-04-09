@@ -679,11 +679,6 @@ max-width: 607px;
 
 /*calculator styles start*/
 
-.calculator{
-    margin-top: 80px;
-}
-
-
 .main-container{
 	padding: 50px 100px 50px 100px;
 	background: #F8F9FA;
@@ -1010,6 +1005,9 @@ max-width: 607px;
 
 /*sale styles start*/
 
+
+
+
 /*reputation styles start*/
 
 .reputation{
@@ -1041,9 +1039,9 @@ max-width: 607px;
 }
 
 .reputation_card{
-    padding: 68px 55px 24px;
+    padding: 0px 55px 24px;
     border: 1px solid #E7EDF0;
-    margin-bottom: 24px;
+    margin-bottom: 48px;
 }
 
 .reputation_subtitle{
@@ -1064,11 +1062,12 @@ max-width: 607px;
 }
 
 .rep_ico-bg{
+    position: relative;
     background: #66A80F;
     border-radius: 50px;
     width: 76px;
     height: 76px;
-    
+    bottom: 40px;
 
 }
 
@@ -1084,7 +1083,7 @@ max-width: 607px;
 /* construction styles start */
 
 .construction{
-    padding: 80px 120px 50px 120px;
+    padding: 78px 120px 50px 120px;
 }
 
 .construction_wrap{
@@ -1161,6 +1160,96 @@ max-width: 607px;
     margin-left: 18px;
 }
 
-
-
 /* construction styles end */
+
+
+
+/* question styles start */
+
+.question_sec{
+    background: #F8F9FA;
+    margin-top: 30px;
+    height: 183px;
+}
+
+.question_block{
+    max-width: 358px;
+    margin-left: 120px;
+}
+
+.question_sec::after{
+    content: '';
+    position: absolute;
+    width: 135px;
+    left: 400px;
+    top: 4525px;
+    border: 1px solid #E7EDF0;
+    transform: rotate(90deg);
+}
+
+
+.ques_subtitle{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 110%;
+    color: #2B3145;
+    padding-bottom: 16px;
+    padding-top: 48px;
+}
+
+.ques_desc{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    color: #2B3145;
+    width: 302px;
+}
+
+.question_block-two{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 106px;
+    padding-top: 53px;
+}
+
+.ques_fio{
+    width: 248px;
+    height: 50px;
+    border: 1px solid #E7EDF0;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #DEE2E6;
+    margin-right: 24px;
+}
+
+.ques_tel{
+    width: 248px;
+    height: 50px;
+    border: 1px solid #E7EDF0;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #DEE2E6;
+    margin-right: 24px;
+}
+
+.ques_button{
+    width: 248px;
+    height: 50px;
+    background: #66A80F;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+
+.ques_konf{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 130%;
+    color: #AAADB5;
+}
+/* question styles end */
