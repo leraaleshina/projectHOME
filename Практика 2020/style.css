@@ -1360,6 +1360,7 @@ margin-left: 170px;
     height: 50px;
     background: #FFFFFF;
     border: 1px solid #E7EDF0;
+    padding-left: 24px;
 }
 
 .reduction_button{
@@ -1841,6 +1842,8 @@ background: url(img/room.png);
 
 /* new repairs styles end */
 
+
+/* helpful styles start */
 .helpful_card{
     margin-top: 162px;
     position: absolute;
@@ -1855,3 +1858,300 @@ background: url(img/room.png);
     margin-top: 13px;
     margin-right: 141px;
 }
+
+/* helpful styles end */
+
+
+/* projects styles start */
+
+.projects{
+    padding-top: 178px;
+    padding-left: 170px;
+    background: #F8F9FA;
+    height: 270px;
+}
+
+.class_sk{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    color: #2B3145;
+    margin-right: 8px;
+}
+
+.class_sk_gray{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    color: #E7EDF0;
+    margin-right: 8px;
+}
+
+.projects_title{
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 120%;
+    color: #2B3145;
+    margin-top: 24px;
+}
+
+.projects_title::after{
+    position: absolute;
+    content: '';
+    width: 1190px;
+    left: 170px;
+    top: 309px;
+    border: 1px solid #E7EDF0;
+}
+
+.projects_type{
+    margin-top: 54px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects_type_one{
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+}
+
+.projects_card_title{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 16px;
+    color: #2B3145;
+    margin-bottom: 16px;
+}
+
+.type_cost{
+    background: #FFFFFF;
+    border: 1px solid #E7EDF0;
+    width: 282px;
+    height: 36px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #2B3145;
+    padding-left: 16px;
+}
+
+
+.projects_type_two{
+    margin-right: 62px;
+}
+
+.option{
+    display: flex;
+	list-style-type: none;
+	padding-left: 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+.option li{
+    border: 1px solid #E7EDF0;;
+	padding: 7px 16px 7px 15px;
+    margin-top: 16px;
+	cursor: pointer;
+}
+
+.projects_calculator{
+    padding: 8px 8px;
+    background: #66A80F;
+    left: 1460px;
+    top: 250px;
+    position: absolute;
+}
+
+
+/* projects styles end */
+
+
+/* individual styles start */
+
+.individual{
+    display: flex;
+    justify-content: space-between;
+}
+
+.individual_card{
+    padding-left: 170px;
+    width: 732px;
+    height: 450px;
+    background: #F8F9FA;
+}
+
+.individual_title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 110%;
+    color: #2B3145;
+    margin-bottom: 24px;
+    margin-top: 80px;
+}
+
+.individual_time{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 110%;
+    color: #66A80F;
+}
+
+.individual_descr{
+    margin-top:24px;
+    margin-bottom: 24px;
+    width: 330px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    color: #4F4F4F;
+}
+
+.individual_tel{
+    width: 220px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #E7EDF0;
+    padding-left: 24px;
+}
+
+.individual_button{
+    background: #66A80F;
+    width: 251px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.individual_konf{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 130%;
+    color: #AAADB5;
+    margin-top: 16px;
+    width: 280px;
+
+}
+
+.individual_second_card{
+    width: 708px;
+    height: 450px;
+    left: 752px;
+    top: 0px;
+    background: url(img/individual_bg.png);
+}
+
+/* individual styles end */
+
+/* house styles start */
+
+.house{
+    padding: 32px 0px 40px 170px;
+    display: grid;
+    grid-template-columns: repeat(3, 384px);
+    column-gap: 24px;
+    margin-bottom: 24px;
+}
+
+.house_new{
+    padding: 12px 6px 11px 6px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 110%;
+    text-align: center;
+    color: #FFFFFF;
+    background: #66A80F;
+    border-radius: 24px;
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 227px;
+}
+
+.card_hieght{
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 272px;
+    background: #FFFFFF;
+    border-radius: 24px;
+    padding: 11px 8px 5px 16px;
+}
+
+.card_without_new{
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 270px;
+    background: #FFFFFF;
+    border-radius: 24px;
+    padding: 11px 8px 5px 16px;
+}
+
+.house_plan{
+    margin-right: 8px;
+}
+
+.house_meter{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2B3145;
+}
+
+.house_title{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 110%;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+
+/* .house_card::before {
+	content: "";
+	display: block;    
+	width: 100%;
+	height: 100%;    
+	position: absolute;
+	top: 0;      
+	left: 0;   
+	background: transparent;
+	background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 66.15%, #000000 100%);
+    opacity: 0.8;
+    display: grid;
+    grid-template-columns: repeat(3, 384px);
+    column-gap: 24px;
+} */
+
+
+.house_descr{
+    position: relative;
+    bottom: 60px;
+    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.house_cost{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 110%;
+    color: #FFFFFF;
+}
+
+.house_bth{
+    margin-left: 411px;
+    width: 379px;
+    height: 50px;
+    border: 1px solid #2B3145;
+    background: white;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #2B3145;
+}
+/* house styles end */
