@@ -1233,19 +1233,20 @@ margin-left: 170px;
 .question_block-two{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 115px;
+    margin-left: 105px;
     padding-top: 53px;
 }
 
 .ques_fio{
-    width: 248px;
-    height: 50px;
-    border: 1px solid #E7EDF0;
     font-weight: normal;
     font-size: 18px;
     line-height: 18px;
     color: #DEE2E6;
+    width: 248px;
+    height: 50px;
+    border: 1px solid #E7EDF0;
     margin-right: 24px;
+    padding-left: 16px;
 }
 
 .ques_tel{
@@ -1257,6 +1258,7 @@ margin-left: 170px;
     line-height: 18px;
     color: #DEE2E6;
     margin-right: 24px;
+    padding-left: 16px;
 }
 
 .ques_button{
@@ -1324,7 +1326,7 @@ margin-left: 170px;
 
 .reduction_card{
     padding-left: 170px;
-    width: 732px;
+    width: 720px;
     height: 450px;
     background: #F8F9FA;
 }
@@ -1386,7 +1388,7 @@ margin-left: 170px;
 }
 
 .reduction_second_card{
-width: 708px;
+width: 720px;
 height: 450px;
 left: 752px;
 top: 0px;
@@ -1414,7 +1416,7 @@ background: url(img/room.png);
     content: '';
     position: absolute;
     width: 358px;
-    left: 675px;
+    left: 665px;
     top: 210px;
     border: 1px solid #DEE2E6;
     transform: rotate(90deg);
@@ -1976,7 +1978,7 @@ background: url(img/room.png);
 
 .individual_card{
     padding-left: 170px;
-    width: 732px;
+    width: 720px;
     height: 450px;
     background: #F8F9FA;
 }
@@ -2038,7 +2040,7 @@ background: url(img/room.png);
 }
 
 .individual_second_card{
-    width: 708px;
+    width: 720px;
     height: 450px;
     left: 752px;
     top: 0px;
@@ -2055,6 +2057,11 @@ background: url(img/room.png);
     grid-template-columns: repeat(3, 384px);
     column-gap: 24px;
     margin-bottom: 24px;
+}
+
+.house_card{
+    margin-bottom: 24px;
+    height: 300px;
 }
 
 .house_new{
@@ -2153,5 +2160,162 @@ background: url(img/room.png);
     letter-spacing: 0.01em;
     text-transform: uppercase;
     color: #2B3145;
+    margin-top: 16px;
 }
 /* house styles end */
+
+
+/* our_works page styles start */
+
+.our_works{
+    padding-top: 178px;
+    padding-left: 170px;
+    background: #F8F9FA;
+    height: 150px;
+}
+
+.our_works_title{
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 120%;
+    color: #2B3145;
+    margin-top: 24px;
+}
+
+.our_works_calculator{
+    padding: 8px 8px;
+    background: #66A80F;
+    left: 1458px;
+    top: 300px;
+    position: absolute;
+}
+
+.ul-works{
+    margin-top: 40px;
+    margin-left: 170px;
+}
+
+.works_type{
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.type-green:after{
+	content: '';
+	border-bottom: 2px solid #66A80F;
+	display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.works_type:after{
+	content: '';
+	border-bottom: 1px solid #E7EDF0;
+	display: block;
+	width: 1200px;
+}
+
+.works_house{
+    padding: 0px 120px 40px 170px;
+    display: grid;
+    grid-template-columns: repeat(3, 384px);
+    column-gap: 24px;
+}
+
+.house-cards{
+    height: 300px;
+    margin-bottom: 24px;
+}
+
+.house_desc{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 110%;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 60px;
+    left: 16px;
+}
+
+.house_arrow{
+    position: relative;
+    padding: 23px;
+    background: #66A80F;
+    bottom: 62px;
+    left: 166px;
+}
+
+/* our_works page styles end */
+
+
+/* our_warranties page styles start */
+
+.warranties_block{
+    padding-left: 170px;
+    padding-bottom: 40px;
+}
+
+.indent{
+    margin-right: 24px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2B3145;
+}
+
+.warranties_title{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 110%;
+    color: #2B3145;
+    margin-bottom: 24px;
+}
+
+.warranties_descr{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    color: #4F4F4F;
+    width: 894px;
+    margin-bottom: 40px;
+}
+
+/* our_warranties page styles end */
+
+
+
+
+/* work_stages page styles start */
+
+.work_stages{
+    padding-left: 170px;
+    padding-bottom: 40px;
+    display: flex;
+}
+
+.work_stages_card-one{
+    margin-right: 45px;
+}
+
+
+.first_stage::after{
+    position: absolute;
+    content: '';
+    border: 2px solid #66A80F;
+    transform: rotate(90deg);
+    display: block;
+    width: 34px;
+    left: 150px;
+    top: 460px;
+}
+
+.ind{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 110%;
+    color: #2B3145;
+    margin-bottom: 24px;
+    margin-left: 20px;
+}
+
+/* work_stages page styles end */
