@@ -740,7 +740,7 @@ margin-left: 170px;
 }
 
 .descr{
-    margin-bottom: 6px;
+    margin-bottom: 8px;
     font-weight: normal;
     font-size: 16px;
     line-height: 16px;
@@ -819,8 +819,8 @@ margin-left: 170px;
 }
 
 .options-ul li{
-	border: 1px solid #E7EDF0;;
-	padding: 5px 5px 5px 5px;
+	border: 1px solid #E7EDF0;
+	padding: 7px 16px 7px 17px;
 	cursor: pointer;
 }
 
@@ -1046,7 +1046,7 @@ margin-left: 170px;
 .reputation_card{
     padding: 0px 55px 24px;
     border: 1px solid #E7EDF0;
-    margin-bottom: 48px;
+    margin-bottom: 60px;
 }
 
 .reputation_subtitle{
@@ -1088,7 +1088,7 @@ margin-left: 170px;
 /* construction styles start */
 
 .construction{
-    padding: 78px 100px 50px 170px;
+    padding: 0px 100px 50px 170px;
 }
 
 .construction_wrap{
@@ -2317,7 +2317,7 @@ background: url(img/room.png);
     line-height: 120%;
     padding-left: 170px;
     margin-top: 490px;
-    max-width: 777px;
+    max-width: 900px;
     color: white;
 }
 
@@ -2382,7 +2382,7 @@ background: url(img/room.png);
     font-size: 40px;
     line-height: 110%;
     color: #2B3145;
-    margin-bottom: 40px;
+    margin-bottom: 76px;
 }
 
 .column_cards{
@@ -3581,3 +3581,245 @@ background: url(img/room.png);
 }
 
 /* contacts page styles end */
+
+
+/* design_house page styles start */
+
+.design_house{
+    background: url(img/design_house.png) no-repeat center;
+    height: 750px;
+    background-size: auto;
+}
+
+.design_need{
+    padding: 0px 0px 60px 170px;
+}
+
+.design_card{
+    background: #FFFFFF;
+    border: 1px solid #E7EDF0;
+    padding: 0px 24px 32px 24px;
+    margin-bottom: 60px;
+}
+
+.design_today_title{
+    padding-left: 170px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 110%;
+    color: #2B3145;
+    margin-bottom: 40px;
+}
+
+.design_subtitle{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 110%;
+    color: #2B3145;
+    margin-bottom: 16px;
+}
+
+.design_subtitle::after{
+    content: '';
+    position: absolute;
+    border: 1.5px solid #66A80F;
+    width: 25%;
+    margin-top: 14px;
+    margin-left: 24px;
+}
+
+.design_wrap{
+    display: grid;
+    grid-template-columns: repeat(3, 384px);
+    column-gap: 24px;
+    padding-left: 170px;
+}
+
+
+.work-card{
+    margin-bottom: 64px;
+}
+
+.des_line{
+    margin-left: 115px;
+}
+
+.design_line{
+    position: relative;
+    right: 170px;
+    bottom: 110px;
+}
+
+.design_calc-header{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 110%;
+    color: #2B3145;
+}
+
+/* design_house page styles end */
+
+
+/* commercial_design page styles start */
+
+.design_commercial{
+    background: url(img/commercial_repair.png) no-repeat center;
+    height: 750px;
+    background-size: auto;
+}
+
+/* commercial_design page styles end */
+
+
+
+
+/* construction_end page styles start */
+
+.construction_end{
+    background: url(img/construction_end.png) no-repeat center;
+    height: 850px;
+    background-size: auto;
+}
+
+.construction_end_subtitle{
+    position: absolute;    
+    font-size: 24px;
+    line-height: 130%;
+    color: white;
+    padding-left: 170px;
+    margin-top: 520px;
+    max-width: 607px;
+}
+
+.construction_end_title{
+    position: absolute;
+    font-size: 52px;
+    line-height: 120%;
+    padding-left: 170px;
+    margin-top: 566px;
+    max-width: 900px;
+    color: white;
+}
+
+
+.construction_end_descr{
+    position: absolute;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 130%;
+    color: #FFFFFF;
+    padding-left: 190px;
+    margin-top: 650px;
+}
+
+.construction_end_descr::after{
+    border: 1px solid #66A80F;
+    position: absolute;
+    transform: rotate(90deg);
+    content: '';
+    display: block;
+    width: 35px;
+    left: 160px;
+    top: 15px;
+}
+
+.construction_end_descr-sec{
+    position: absolute;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 130%;
+    color: #FFFFFF;
+    padding-left: 330px;
+    margin-top: 650px;
+}
+
+
+.construction_end_descr-sec::after{
+    border: 1px solid #66A80F;
+    position: absolute;
+    transform: rotate(90deg);
+    content: '';
+    display: block;
+    width: 35px;
+    left: 300px;
+    top: 15px;
+}
+
+.description_poject{
+    padding: 0px 0px 80px 170px;
+}
+
+.constr_end_descr{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    color: #4F4F4F;
+    width: 1200px;
+    margin-top: 24px;
+}
+
+.progress{
+    padding: 0px 100px 120px 170px;
+}
+
+.first_date{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    color: #000000;
+    margin-top: 16px;
+}
+
+.end_date{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    color: #000000;
+    float: right;
+    margin-top: 24px;
+    margin-right: 38px;
+}
+
+.range{
+    -webkit-appearance: none;
+    border: 2px solid #E7EDF0; 
+    width: 97%;
+    margin-top: 24px;
+    height: 1px;
+}
+
+.range::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width:18px;
+    height:18px;
+    background: #66A80F;
+    border-radius: 20px;
+    cursor:pointer;
+    transition:.1s;
+}
+
+.range::-webkit-slider-thumb:hover, .range::-webkit-slider-thumb:active{
+    width:24px;
+    height:24px;
+}
+
+.progress_card{
+    margin-top: 80px;
+}
+
+.progress_pic{
+    margin-right: 24px;
+}
+
+.construction_end_more{
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 17px;
+        color: #333333;
+        text-decoration: none;
+        padding-left: 800px;
+        background: url(img/svg/Arrow-green.svg) no-repeat 99% center;
+        transition: .2s;
+        padding-right: 28px;
+}
+/* construction_end page styles end */
